@@ -7,11 +7,9 @@
 let cost_per_day = 35;
 let number_of_days = 0;
 const clickedDays = document.querySelectorAll('.day-selector li');
-const dayType = document.querySelectorAll('.small-button');
 const clearDay = document.getElementById('clear-button');
 const halfDay = document.getElementById('half');
 const fullDay = document.getElementById('full');
-let calculatedCost = document.getElementById('calculated-cost');
 
 /********* colour change days of week *********/
 // when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
